@@ -10,6 +10,20 @@
 
 Built with Java 21 virtual threads for parallel checks, colored terminal output, and a simple YAML config. Perfect for quickly validating your microservices, third-party APIs, or any HTTP endpoint.
 
+## Why pulse?
+
+Monitoring tools like Grafana, Datadog and UptimeRobot are great for production, but overkill when you just want to know: **"are my APIs up?"**
+
+pulse solves that with a single command — no dashboards, no login, no setup.
+
+| Differentiator | Description |
+|----------------|-------------|
+| **Zero dependencies** | No Docker, Node or Python needed. Just Java |
+| **Real parallelism** | Java 21 virtual threads — checks 50 APIs in the same time as 1 |
+| **One command** | `pulse check` and done. Results in under 1 second |
+| **Universal** | Works on Windows, Linux and macOS. ASCII output compatible with any terminal |
+| **3 lines of YAML** | No verbose JSON, no GUI, no learning curve |
+
 ## Installation
 
 ### Windows (PowerShell)

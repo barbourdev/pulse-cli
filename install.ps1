@@ -1,5 +1,5 @@
 Write-Host "Building pulse..." -ForegroundColor Cyan
-mvnd package -q -DskipTests
+mvn package -q -DskipTests
 
 if ($LASTEXITCODE -ne 0) {
     Write-Host "[FAIL] Build falhou." -ForegroundColor Red

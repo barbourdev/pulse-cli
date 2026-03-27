@@ -1,7 +1,0 @@
-apis:
-  - name: github
-    url: https://api.github.com
-  - name: jsonplaceholder
-    url: https://jsonplaceholder.typicode.com/posts/1
-  - name: local-api
-    url: http://localhost:8080/health
